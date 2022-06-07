@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+issueTrackerURL=""
+displayURL=""
+license="All rights reserved"
+
+[[mods]]
+modId="pixelwiki"
+version="${file.jarVersion}"
+displayName="PixelWiki"
+authors="Blackout"
+description='''Adds back the Wiki Command to Early Versions of Pixelmon on 1.16.5.'''
+itemIcon="pixelmon:blue_apricorn"
+
+[[dependencies.pixelwiki]]
+modId="pixelmon"
+mandatory=true
+versionRange="[9.0.1,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.pixelwiki]]
+modId="forge"
+mandatory=true
+versionRange="[36.2.20,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.pixelwiki]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.16.5]"
+ordering="NONE"
+side="BOTH"
