@@ -52,7 +52,7 @@ public class WikiCommand extends PixelCommand {
 			"nationalpokedex", "nationaldex", "pokedex", "dex");
 
 	public WikiCommand(CommandDispatcher<CommandSource> dispatcher) {
-		super(dispatcher, "wiki", "/wiki <pokemon> [form] <info> - displays the <info> of <pokemon>", 0);
+		super(dispatcher, "wiki", "/wiki <pokemon> [form/palette] <info> - displays the <info> of <pokemon>", 0);
 	}
 
 	@Override
