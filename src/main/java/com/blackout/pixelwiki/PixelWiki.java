@@ -31,6 +31,9 @@ public class PixelWiki {
 
 		IEventBus forgeBus = MinecraftForge.EVENT_BUS;
 		forgeBus.addListener(MiscEventHandler::onRegisterCommandEvent);
+		forgeBus.addListener(MiscEventHandler::onPlayerDeathEvent);
+		forgeBus.addListener(MiscEventHandler::onEndBattleEvent);
+		forgeBus.addListener(MiscEventHandler::onForceEndBattleEvent);
 		forgeBus.register(this);
 	}
 }
