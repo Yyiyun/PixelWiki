@@ -49,7 +49,7 @@ public class WikiCommand extends PixelCommand {
 	private static final List<String> info = Lists.newArrayList("moves", "levelupmoves", "eggmoves", "tmtrhmmoves", "tutormoves", "genderratio", "evyield", "evdrop",
 			"evolution", "evo", "abilities", "hiddenability", "ha", "spawn", "basestats", "stats", "egggroup", "catchrate", "catch", "rarity", "biome", "time", "weather",
 			"grass", "caverock", "headbutt", "rocksmash", "sweetscent", "fishing", "moonphase", "yheight", "ylevel", "y", "lightlevel", "light", "preevolution", "preevo",
-			"nationalpokedex", "nationaldex", "pokedex", "dex", "drops");
+			"nationalpokedex", "nationaldex", "pokedex", "dex");
 
 	public WikiCommand(CommandDispatcher<CommandSource> dispatcher) {
 		super(dispatcher, "wiki", "/wiki <pokemon> [form] <info> - displays the <info> of <pokemon>", 0);
