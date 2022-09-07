@@ -11,4 +11,5 @@ public class MiscEventHandler {
 		CommandDispatcher<CommandSource> commandDispatcher = event.getDispatcher();
 		new WikiCommand(commandDispatcher);
 	}
+
 }
